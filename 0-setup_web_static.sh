@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 # Script to configure and start a web server for deploying web_static.
 
-# Update package list and install Nginx
 apt-get update
 apt-get install -y nginx
 
 # Create necessary directories and a basic index.html file
 mkdir -p /data/web_static/releases/test/
 mkdir -p /data/web_static/shared/
-echo "Welcome to Holberton School" > /data/web_static/releases/test/index.html
+echo "Holberton School" > /data/web_static/releases/test/index.html
 ln -sf /data/web_static/releases/test/ /data/web_static/current
 
 # Set ownership and group for web server directories
