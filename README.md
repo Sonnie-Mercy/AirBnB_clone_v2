@@ -10,3 +10,12 @@ What ORM means
 How to map a Python Class to a MySQL table
 How to handle 2 different storage engines with the same codebase
 How to use environment variables
+General
+What is Fabric
+How to deploy code to a server easily
+What is a tgz archive
+How to execute Fabric command locally
+How to execute Fabric command remotely
+How to transfer files with Fabric
+How to manage Nginx configuration
+What is the difference between root and alias in a Nginx configuration
