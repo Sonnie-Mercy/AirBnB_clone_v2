@@ -32,7 +32,7 @@ def do_deploy(archive_path):
         archize_size = os.stat(output).st_size
         print("web_static packed: {} -> {} Bytes".format(output, archize_size))
     except Exception:
-    return None
+        return None
 
 
 def do_deploy(archive_path):
