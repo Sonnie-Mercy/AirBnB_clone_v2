@@ -10,7 +10,7 @@ from fabric.api import local
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["100.25.144.66", "54.157.191.121"]
+env.hosts = ["100.25.138.158", "18.214.87.67"]
 
 
 def do_pack():
@@ -31,13 +31,7 @@ def do_pack():
 
 
 def do_deploy(archive_path):
-    """Distributes an archive to a web server.
-    Args:
-        archive_path (str): The path of the archive to distribute.
-    Returns:
-        If the file doesn't exist at archive_path or an error occurs - False.
-        Otherwise - True.
-    """
+    """Distributes an archive to a web server."""
     if os.path.isfile(archive_path) is False:
         return False
     file = archive_path.split("/")[-1]
