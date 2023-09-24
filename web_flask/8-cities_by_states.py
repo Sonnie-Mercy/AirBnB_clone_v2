@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""a script that starts a web flask application to displat html data from the db"""
+"""a script that starts a web flask application to display
+html data from the db"""
 from flask import Flask, render_template
 from models import storage
 
