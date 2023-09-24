@@ -28,7 +28,7 @@ def python_with_text(text):
     return 'Python {}'.format(text)
 
 
-@app.route('number/<int:n>', strict_slashes=False)
+@app.route('/number/<int:n>', strict_slashes=False)
 def is_number(n):
     return '{} is a number'.format(n)
 
