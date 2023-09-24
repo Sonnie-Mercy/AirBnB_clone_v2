@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """a script that starts a web flask applications to display hello hbnb"""
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
